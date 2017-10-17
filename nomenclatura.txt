@@ -1,0 +1,6 @@
+archivos = nombre en minuscula si tiene mas de dos nombres la separacion ira con guion bajo "_".
+variables, id = seran creadas con lowerCamelCase.
+function = Comienza con mayuscula y la separacion sera con guin bajo "_", las llaves despues de entreparentesis "()"
+comentarios = comentarios en mayuscula.
+class= minusculas separadas con guin "-"
+estilos = Carpetas separadas.
