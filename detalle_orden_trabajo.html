@@ -1,0 +1,336 @@
+<html>
+	<head>
+
+		<link rel="stylesheet" href="bootstrap-4.0.0-beta/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css" />
+
+		<script src="bootstrap-4.0.0-beta/dist/js/jquery.min.js"></script>
+		<script src="picker.js"></script>
+		<script src="bootstrap-4.0.0-beta/dist/js/popper.min.js"></script>
+		<script src="bootstrap-4.0.0-beta/dist/js/bootstrap.min.js"></script>
+		<link  href="classic.date.css" rel="stylesheet">
+		
+	</head>
+	<body>
+
+		<div class="container">
+			<br/>
+			<h2>Ingreso Detalle Orden de Trabajo</h2>
+			<hr />
+			<form>
+				<div class="row">
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label">Actividad:</label>
+					</div>
+					<div class="form-group col-md-2 col-lg-2">
+						<input id="codigoActividad" class="form-control" type="text" placeholder="COD."  >
+					</div>
+					<div class="form-group col-md-5 col-lg-5">
+						<input  id="nombreActividad" class="form-control" type="text" placeholder="Actividad"  >
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<button class="btn btn-success"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label"> Id OT:</label>
+					</div>
+					<div class="form-group col-md-2 col-lg-2">
+						<input id="idOrdenTrabajo" class="form-control" type="text">
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label">Texto:</label>
+					</div>
+					<div class="form-group col-md-7 col-lg-7">
+						<input id="textoActividad" class="form-control" type="text" placeholder="Texto"  >
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<button class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i></button>
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label"> Fecha:</label>
+					</div>
+					<div class="form-group col-md-2 col-lg-2">
+						<input id="idOrdenTrabajo" class="form-control" type="text">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label">Usuario:</label>
+					</div>
+					<div class="form-group col-md-2 col-lg-2">
+						<input id="codigoActividad" class="form-control" type="text" placeholder="Rut" >
+					</div>
+					<div class="form-group col-md-5 col-lg-5">
+						<input id="textoActividad" class="form-control" type="text" placeholder="Nombre" >
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<button class="btn btn-success"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label"> Item:</label>
+					</div>
+					<div class="form-group col-md-2 col-lg-2">
+						<input id="idOrdenTrabajo" class="form-control" type="text">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label">Inicio:</label>
+					</div>
+					<div class="form-group input-group col-md-3 col-lg-3">
+						<input id="datepicker" class="form-control" type="date" >
+						<div class="input-group-addon">
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+						</div>
+					</div>
+					
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label">Termino:</label>
+					</div>
+					<div class="form-group input-group col-md-3 col-lg-3">
+						<input id="codigoActividad" class="form-control" type="date">
+						<div class="input-group-addon">
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+						</div>
+					</div>		
+					<div class="form-group col-md-1 col-lg-1 ml-auto">
+						<label class="col-form-label"> Estado:</label>
+					</div>
+					<div class="form-group col-md-2 col-lg-2">
+						<input id="idOrdenTrabajo" class="form-control" type="text">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label">Padre:</label>
+					</div>
+					<div class="form-group col-md-2 col-lg-2">
+						<input id="idOrdenTrabajo" class="form-control" type="text">
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<button class="btn btn-success"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label">Formulario:</label>
+					</div>
+					<div class="form-group col-md-2 col-lg-2">
+						<input id="idOrdenTrabajo" class="form-control" type="text">
+					</div>
+					<div class="form-group col-md-3 col-lg-3">
+						<input  id="nombreActividad" class="form-control" type="text" placeholder="Actividad"  >
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label">Cantidad:</label>
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<input id="idOrdenTrabajo" class="form-control" type="text">
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<label class="col-form-label">Medida:</label>
+					</div>
+					<div class="form-group col-md-3 col-lg-3">
+						<input id="idOrdenTrabajo" class="form-control" type="text">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-1 col-lg-1 offset">
+						<button class="btn btn-danger">Cancelar</button>
+					</div>
+					<div class="form-group col-md-1 col-lg-1">
+						<button class="btn btn-success">Aceptar</button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div id="modal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  			<div class="modal-dialog modal-lg">
+    			<div class="modal-content">
+    				<div class="modal-header container">
+    					
+    					<h5 id="tituloDetalleOrdenTrabajo" class="modal-title text-center">Ingreso Detalle Orden de Trabajo</h5>
+    					
+    					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          					<span aria-hidden="true">&times;</span>
+        				</button>
+    				</div>
+      				<div class="modal-body container">
+						<form>
+							<div class="row">
+
+								<div class="form-group col-md-2">
+									<label class="col-form-label">Id OT:</label>
+								</div>
+								<div class="form-group col-md-4 col-lg-4">
+									<input id="idOrdenTrabajo" class="form-control" type="text" value="144115" disabled >
+								</div>
+
+								<div class="form-group col-md-2">
+									<label class="col-form-label">Fecha:</label>
+								</div>
+								<div class="form-group input-group col-md-4 col-lg-4">
+									<input id="datepicker" class="form-control" type="date" >
+									<div class="input-group-addon">
+										<i class="fa fa-calendar" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="form-group col-md-2">
+									<label class="col-form-label">Item:</label>
+								</div>
+								<div class="form-group col-md-4 col-lg-4">
+									<input id="idOrdenTrabajo" class="form-control" type="text" value="8782" disabled>
+								</div>
+
+								<div class="form-group col-md-2">
+									<label class="col-form-label">Estado:</label>
+								</div>
+								<div class="form-group col-md-4 col-lg-4">
+									<input id="idOrdenTrabajo" class="form-control" type="text" value="Nueva" disabled>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="form-group col-md-2 col-lg-2">
+									<label class="col-form-label">Actividad:</label>
+								</div>
+								<div class="form-group col-md-3 col-lg-3">
+									<input id="codigoActividad" class="form-control" type="text" placeholder="COD."  >
+								</div>
+								<div class="form-group col-md-6 col-lg-6">
+									<input  id="nombreActividad" class="form-control" type="text" placeholder="Actividad">
+								</div>
+								<div class="form-group col-md-1 col-lg-1">
+									<button class="btn btn-success"><i class="fa fa-search" aria-hidden="true"></i></button>
+								</div>
+							</div>
+				
+							<div class="row">
+								<div class="form-group col-md-2 col-lg-2">
+									<label class="col-form-label">Texto:</label>
+								</div>
+								<div class="form-group col-md-9 col-lg-9">
+									<input id="textoActividad" class="form-control" type="text" placeholder="Texto"  >
+								</div>
+								<div class="form-group col-md-1 col-lg-1">
+									<button class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i></button>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="form-group col-md-2 col-lg-2">
+									<label class="col-form-label">Usuario:</label>
+								</div>
+								<div class="form-group col-md-3 col-lg-3">
+									<input id="codigoActividad" class="form-control" type="text" placeholder="Rut" >
+								</div>
+
+								<div class="form-group col-md-6 col-lg-6">
+									<input id="textoActividad" class="form-control" type="text" placeholder="Nombre" >
+								</div>
+
+								<div class="form-group col-md-1 col-lg-1">
+									<button class="btn btn-success"><i class="fa fa-search" aria-hidden="true"></i></button>
+								</div>
+					
+							</div>
+
+							<div class="row">
+								<div class="form-group col-md-2 col-lg-2">
+									<label class="col-form-label">F. Inicio:</label>
+								</div>
+
+								<div class="form-group input-group col-md-4 col-lg-4">
+									<input id="datepicker" class="form-control" type="date" >
+										<div class="input-group-addon">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+										</div>
+								</div>
+					
+								<div class="form-group col-md-2 col-lg-2">
+									<label class="col-form-label">F. Termino:</label>
+								</div>
+								<div class="form-group input-group col-md-4 col-lg-4">
+									<input id="codigoActividad" class="form-control" type="date">
+										<div class="input-group-addon">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+										</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="form-group col-md-2 col-lg-2">
+									<label class="col-form-label">Padre:</label>
+								</div>
+								<div class="form-group col-md-3 col-lg-3">
+									<input id="idOrdenTrabajo" class="form-control" type="text">
+								</div>
+								<div class="form-group col-md-1 col-lg-1">
+									<button class="btn btn-success"><i class="fa fa-search" aria-hidden="true"></i></button>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="form-group col-md-2 col-lg-2">
+									<label class="col-form-label">Formulario:</label>
+								</div>
+								<div class="form-group col-md-3 col-lg-3">
+									<input id="idOrdenTrabajo" class="form-control" type="text" placeholder="COD">
+								</div>
+								<div class="form-group col-md-7 col-lg-7">
+									<input  id="nombreActividad" class="form-control" type="text" placeholder="Actividad"  >
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="form-group col-md-2 col-lg-2">
+									<label class="col-form-label">Cantidad:</label>
+								</div>
+								<div class="form-group col-md-3 col-lg-3">
+									<input id="idOrdenTrabajo" class="form-control" type="text">
+								</div>
+								<div class="form-group col-md-2 col-lg-2">
+									<label class="col-form-label">Medida:</label>
+								</div>
+								<div class="form-group col-md-5 col-lg-5">
+			    					<select class="form-control" id="exampleFormControlSelect1">
+			      						<option>Seleccione</option>
+			      						<option>Persona</option>
+			      						<option>Vehiculo</option>
+			    					</select>
+			  					</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+        				<button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+        			<button type="button" class="btn btn-success">Aceptar</button>
+      			</div>
+    			</div>
+  			</div>
+		</div>
+
+		<script>
+
+		$(document).ready(function(){
+
+			$("#modal").modal('show');
+
+		});
+        	
+    </script>
+		
+	</body>
+</html>
