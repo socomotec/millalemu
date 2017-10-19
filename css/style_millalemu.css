@@ -1,0 +1,13 @@
+#spanCalendar{
+    background-color:rgba(255, 255, 255, 0.99);
+    color: black;
+}
+
+#divOrdenTrabajo{
+    overflow:scroll;
+    height:200px;
+    width:100%;
+}
+#divOrdenTrabajo table{
+   width:100%;
+}

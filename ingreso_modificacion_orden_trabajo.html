@@ -1,0 +1,257 @@
+
+<html lang="es">
+	<head>
+        <title>Orden Trabajo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+		<link rel="stylesheet" href="bootstrap-4.0.0-beta/dist/css/bootstrap.min.css" />
+                <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css" />
+                <link rel="stylesheet" href="css/style_millalemu.css"
+
+		<script src="bootstrap-4.0.0-beta/dist/js/jquery.min.js"></script>
+		<script src="bootstrap-4.0.0-beta/dist/js/popper.min.js"></script>
+		<script src="bootstrap-4.0.0-beta/dist/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+       
+		<div class="container">
+                    <br>
+                    <p> <strong> Ingreso/Modificacion Orden de Trabajo </strong></p>
+                    <br>
+                    
+                <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-8 col-lg-9" id="">
+                                <form>
+                                        <div class="form-group row">
+                                                <label for="" class="col-sm-2 col-form-label">Numero OT: </label>
+                                                <div class="col-sm-2">
+                                                <input type="email" class="form-control" id="" placeholder="0">
+                                                </div>
+                                                <div class="col-sm-7"></div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                                <label for="" class="col-sm-2 col-form-label">Tipo OT: </label>
+                                                <div class="col-sm-2">
+                                                    <select id="" class="form-control">
+                                                        <option>Prueba</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-sm-8"></div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                                <label for="" class="col-sm-2 col-form-label">Rol: </label>
+                                                <div class="col-sm-3">
+                                                        <input type="text" class="form-control" id="" placeholder="Rol">
+                                                </div>
+                                                <div class="col-sm-7">
+                                                        <div class='input-group date' id=''>
+                                                                <input type='text' class="form-control" placeholder="Nombre Rol"/>
+                                                                <span class="input-group-addon">
+                                                                    <span class="fa fa-search"></span>
+                                                                </span>
+                                                        </div>
+                                                </div>
+                                                
+                                        </div>
+
+                                        <div class="form-group row">
+                                                <label for="" class="col-sm-2 col-form-label">Responsable: </label>
+                                                <div class="col-sm-3">
+                                                        <input type="text" class="form-control" id="" placeholder="Rut">
+                                                </div>
+                                                <div class="col-sm-7">
+                                                        <div class='input-group date' id=''>
+                                                                <input type='text' class="form-control" placeholder="Nombre"/>
+                                                                <span class="input-group-addon">
+                                                                    <span class="fa fa-search"></span>
+                                                                </span>
+                                                        </div>
+                                                </div>
+                                                
+                                        </div>
+
+
+                                        <div class="form-group row">
+                                                <label for="" class="col-sm-2 col-form-label">Fecha Inicio: </label>
+                                                <div class="col-sm-4">
+                                                        <div class='input-group date' id=''>
+                                                                <input type='date' class="form-control" placeholder=""/>
+                                                                <span id="spanCalendar" class="input-group-addon">
+                                                                    <span class="fa fa-calendar"></span>
+                                                                </span>
+                                                        </div>
+                                                </div>
+                                                
+                                                <p for="" class="col-sm-2 col-form-label">Fecha Termino: </p>
+                                                <div class="col-sm-4">
+                                                        <div class='input-group date' id=''>
+                                                                <input type='date' class="form-control" placeholder=""/>
+                                                                <span  id="spanCalendar" class="input-group-addon">
+                                                                    <span class="fa fa-calendar"></span>
+                                                                </span>
+                                                        </div>
+                                                </div>
+                                                
+                                        </div>
+
+                                        <div class="form-group row">
+                                                <label for="" class="col-sm-2 col-form-label">Observaciones: </label>
+                                                <div class="col-sm-10">
+                                                        <div class='input-group date' id=''>
+                                                                <input type='text' class="form-control" placeholder="Observaciones"/>
+                                                                  <button class="btn btn-success"><span class="fa fa-plus"></span></button>
+                                                        </div>
+                                                </div>
+                                                    
+                                        </div>
+
+                                        <div class="form-group row">
+                                                <label for="" class="col-sm-2 col-form-label">Numero OT Padre: </label>
+                                                <div class="col-sm-3">
+                                                        <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                                                </div>
+
+                                                <div class="col-sm-6"></div>
+                                           
+                                        </div>
+                                </form>
+                                    
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <form>
+                                        <div class="row justify-content-end form-group row">
+                                               
+                                                <label for="" class="col-sm-3 col-form-label">Id. OT </label>
+                                                 <div class="col-sm-6">
+                                                        <input type="text" class="form-control" id="inputEmail3" placeholder="" readonly>
+                                                 </div> 
+                                        </div>
+
+                                        <div class="row justify-content-end form-group row">
+                                                
+                                                <label for="" class="col-sm-3 col-form-label">Fecha</label>
+                                                <div class="col-sm-6">
+                                                        <input type="text" class="form-control" id="inputEmail3" placeholder="" readonly>
+                                                </div> 
+                                        </div>
+
+                                        <div class="row justify-content-end form-group row">
+                                            
+                                                <label for="" class="col-sm-3 col-form-label">Estado </label>
+                                                <div class="col-sm-6">
+                                                        <input type="text" class="form-control" id="inputEmail3" placeholder="" readonly>
+                                                </div> 
+                                        </div>
+
+                                        <div class="row justify-content-end form-group row">
+                                                
+                                                <label for="" class="col-sm-3 col-form-label">Cerrado</label>
+                                                <div class="col-sm-6">
+                                                        <input type="text" class="form-control" id="inputEmail3" placeholder="" readonly>
+                                                </div> 
+                                        </div>
+                                        <div class="row justify-content-end form-group ">                                                               
+                                                <button class="btn btn-success col-sm-6"><i class="fa fa-plus"></i> Crear OT Hija</button>
+                                                
+                                         </div>
+                                        
+                                        
+                                </form>        
+
+                        </div>
+                </div>               
+            </div>
+            <hr>
+            <div class="container-fluid">
+                               <div  id="divOrdenTrabajo">
+                                        <table class="table table-bordered">
+                                                        <thead>
+                                                          <tr class="table-active">
+                                                            <th>Item</th>
+                                                            <th>Activdad</th>
+                                                            <th>Texto</th>
+                                                            <th>Valida</th>
+                                                            <th>Fecha Inicio</th>
+                                                            <th>Fecha Termino</th>
+                                                            <th>Estado</th>
+                                                            <th>Observacion</th>
+                                                            <th>Fecha Estado</th>
+                                                            <th>Act. Padre</th>
+                                                            <th>Accion</th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr>
+                                                            <td>1</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            <td>@mdo</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>
+                                                                 <button class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                                                 <button class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                                                                 <button class="btn btn-success"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
+                                                            </td>
+                                                            
+                                                          </tr>
+                                                          <tr>
+                                                            <td>1</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            <td>@mdo</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>
+                                                                 <button class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                                                 <button class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                                                                 <button class="btn btn-success"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
+                                                            </td>
+                                                          </tr>
+
+                                                           <tr>
+                                                            <td>1</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                            <td>@mdo</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>
+                                                                 <button class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                                                 <button class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                                                                 <button class="btn btn-success"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
+                                                            </td>
+                                                        </tr>                                                        
+                                                        </tbody>
+                                             </table>
+                                </div>
+                                <br>
+
+                                <div class="row">
+                                       <div class="col-sm-1"></div>
+                                       <div class="col-sm-1"><button class="btn btn-danger">Cancelar</button></div>
+                                        <div class="col-sm-6"><button class="btn btn-default">Aceptar</button></div>
+                                        <div class="col-sm-3"><button class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Crear Actividad</button></div>
+                                        <div class="col-sm-1"></div>
+                                </div>
+                        </div>
+			
+	</body>
+</html>
