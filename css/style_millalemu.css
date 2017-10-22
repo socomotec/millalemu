@@ -21,3 +21,9 @@ thead tr{
     float: top;
     position: relative;
 }
+
+#tableComplete{
+    overflow:scroll;
+    height:70%;
+    width:100%;
+}
