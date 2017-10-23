@@ -1,0 +1,238 @@
+<html lang="es">
+        
+        <head>
+          <title>Modificacion orden de trabajo</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+          <link rel="stylesheet" href="bootstrap-4.0.0-beta/dist/css/bootstrap.min.css" />
+          <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css" />
+          <link rel="stylesheet" href="css/style_millalemu.css">
+        
+          <script src="bootstrap-4.0.0-beta/dist/js/jquery.min.js"></script>
+          <script src="bootstrap-4.0.0-beta/dist/js/popper.min.js"></script>
+          <script src="bootstrap-4.0.0-beta/dist/js/bootstrap.min.js"></script>
+        </head>
+        
+        <body>
+          <div class="container">
+            <p> <strong> Modificacion orden de trabajo </strong></p>
+            <hr>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-8 col-lg-9">
+                <form>
+        
+                  <div class="form-group row">
+                    <label for="" class="col-sm-3 col-form-label">Actividad: </label>
+                    <div class="col-sm-2">
+                      <input type="text" class=" form-control" id="" placeholder="Cod">
+                    </div>
+                    <div class="col-sm-7">
+                      <div class='input-group date' id=''>
+                        <input type='text' class="form-control" placeholder="Actividad" />
+                        <span class="input-group-addon">
+                            <span class="fa fa-search"></span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="form-group row">
+                    <label for="" class="col-sm-3 col-form-label">Texto: </label>
+                    <div class="col-sm-9">
+                      <div class='input-group date' id=''>
+                          <input type='text' class="form-control" placeholder="Texto" />
+                          <span class="input-group-addon">
+                            <span class="fa fa-plus"></span>
+                          </span>
+                        </div>
+                    </div>
+                  </div>
+        
+                  <div class="form-group row">
+                    <label for="" class="col-sm-3 col-form-label">Usuario Validación: </label>
+                    <div class="col-sm-3">
+                      <input type="text" class="form-control" id="" placeholder="Run">
+                    </div>
+                    <div class="col-sm-6">
+                      <div class='input-group date' id=''>
+                        <input type='text' class="form-control" placeholder="Nombre" />
+                        <span class="input-group-addon">
+                            <span class="fa fa-search"></span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="form-group row">
+                        <label for="" class="col-sm-3 col-form-label">Fecha Inicio: </label>
+                           <div class="col-sm-4">
+                              <div class='input-group date' id=''>
+                                 <input type='date' class="form-control" placeholder=""/>
+                                 <span class="input-group-addon spanCalendar">
+                                  <span class="fa fa-calendar"></span>
+                                 </span>
+                              </div>
+                           </div>
+                                     
+                     <label for="" class="col-sm-1 col-form-label">Fecha Termino: </label>
+                         <div class="col-sm-4">
+                             <div class='input-group date' id=''>
+                                <input type='date' class="form-control" placeholder=""/>
+                                <span   class="input-group-addon spanCalendar">
+                                  <span class="fa fa-calendar"></span>
+                                </span>
+                             </div>
+                         </div>                 
+                    </div>
+        
+                  <div class="form-group row">
+                    <label for="" class="col-sm-3 col-form-label">Actividad Padre: </label>
+                    <div class="col-sm-9">
+                      <div class='input-group date' id=''>
+                        <input type='text' class="form-control" placeholder="Observaciones" />
+                        <button class="btn btn-success"><i class="fa fa-plus"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+        
+                </form>
+              </div>
+              <!--CERRAMOS EL PRIMER DIV-->
+        
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <form>
+        
+                  <div class="row justify-content-end form-group row">
+                    <label for="" class="col-sm-4 col-form-label">Id OT: </label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="144115" readonly>
+                    </div>
+                  </div>
+
+                  <div class="row justify-content-end form-group row">
+                    <label for="" class="col-sm-4 col-form-label">Fecha:</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="01/10/2017" readonly>
+                    </div>
+                  </div>
+        
+                  <div class="row justify-content-end form-group row">
+                    <label for="" class="col-sm-4 col-form-label">Item:</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="2091" readonly>
+                    </div>
+                  </div>
+        
+                  <div class="row justify-content-end form-group row">
+                    <label for="" class="col-sm-4 col-form-label">Estado:</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Nueva" readonly>
+                    </div>
+                  </div>
+        
+                  <div class="row justify-content-center form-group row">
+                    <button class="btn btn-success"><i class="fa fa-plus"></i> Crear Bitacora</button>
+                  </div>
+
+                 </form>
+        
+              </div> <!--TERMINAMOS EL SEGUNDO DIV-->
+        
+            
+        
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            
+              <div id="divOrdenTrabajo">
+                <table class="table table-bordered table-striped table-sm">
+                  <thead>
+        
+                    <tr class="">
+                      <th>Fecha</th>
+                      <th>Observación</th>
+                    </tr>
+                    
+                  </thead>
+                  <tbody>
+        
+                    <tr>
+                      <td>10</td>
+                      <td>Usa EPP</td>      
+                    </tr>
+
+                    <tr>
+                      <td>10</td>
+                      <td>Usa EPP</td>      
+                    </tr>
+
+                    <tr>
+                      <td>10</td>
+                      <td>Usa EPP</td>      
+                    </tr>
+
+                    <tr>
+                      <td>10</td>
+                      <td>Usa EPP</td>      
+                    </tr>
+        
+                  </tbody>
+                </table>
+              </div>
+        
+              <br>
+              
+        
+              </div>
+
+              <div class="container">
+                
+                  <div class="col-xs-12 col-sm-6 col-md-8 col-lg-9">
+                    <div class="row">
+                      <button class="btn btn-primary" disabled><i class="fa fa-check"></i> Terminar</button>
+                      <div class="col-sm-10">
+                        <div class='input-group date' id=''>
+                           <input type='text' class="form-control" placeholder="Observación" />
+                           <button class="btn btn-success"><i class="fa fa-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                     <div class="row justify-content-center form-group row">
+                        
+                      <div class="col-sm-2">
+                        <button class="btn btn-primary"><i class="fa fa-search"></i>Ver OT</button>
+                      </div>
+                      <div class="col-sm-2">
+                        <button class="btn btn-default"><i class="fa fa-paperclip"></i> Archivos</button>
+                      </div> 
+                      <div class="col-sm-2"> 
+                        <button class="btn btn-default"><i class="fa fa-file-archive-o"></i> Formulario</button>
+                      </div>
+
+                    </div>
+                  </div>
+                
+              </div>
+              
+              <hr>
+              <div class="container-fluid">
+                <div class="row">
+            
+                    <div class="col-sm-1">
+                    </div>
+                    <div class="col-sm-1">
+                    <button class="btn btn-danger">Cancelar</button>
+                    </div>
+                    <div class="col-sm-6">
+                    <button class="btn btn-default">Aceptar</button>
+                    </div>
+            
+                    </div>
+              </div>
+        </body>
+        
+        </html>
